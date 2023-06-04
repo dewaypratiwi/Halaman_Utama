@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>WEBGIS JENEPONTO</title>
+           
+            <link rel="stylesheet" href="css/index.css">
+
+        </head>
+
+        <body>
+            <header>
+                <div class="container">
+                    <input type="checkbox" name="" id="check">
+                    
+                    <div class="logo-container">
+                        <img src ="img/IPB University.png" class="logo"/>
+                    </div>
+        
+                    <div class="nav-btn">
+                        <div class="nav-links">
+                            <ul>
+                                <li class="nav-link" style="--i: .6s">
+                                    <a href="Halaman Utama.html">Home</a>
+                                </li>
+                                <li class="nav-link" style="--i: .6s">
+                                    <a href="Profile.html">Profile</a>
+                                </li>
+                                <li class="nav-link" style="--i: .85s">
+                                    <a href="#">Map +<i class="fas fa-caret-down"></i></a>
+                                    <div class="dropdown">
+                                        <ul>
+                                            <li class="dropdown-link">
+                                                <a href="#">Peta Kabupaten Jeneponto</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Peta Penggunaan Lahan Kabupaten Jeneponto</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Peta Kemiringan Lereng Kabupaten Jeneponto</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Peta Ketinggian Tempat Kabupaten Jeneponto</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Peta Curah Hujan Kabupaten Jeneponto</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Peta Sebaran Buah Siwalan Kabupaten Jeneponto</a>
+                                            </li>
+                                            <div class="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-link" style="--i: 1.35s">
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <div class="log-sign" style="--i: 1.8s">
+                            <a href="#" class="btn transparent">Sign in</a>
+                            <a href="#" class="btn solid">Sign up</a>
+                        </div>
+                    </div>
+        
+                    <div class="hamburger-menu-container">
+                        <div class="hamburger-menu">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="wrapper">
+                    <!-- untuk home -->
+                    <section id="home">
+                        <img src="img/Indonesia.png">
+                        <div class="kolom">
+                            <h1>Hi <span id="nama"></span>, Welcome To WEBGIS JENEPONTO</h1>
+                            <p>Please Login First To Retrieve The Required Data</p>
+
+                            <script>
+                                var nama = prompt ("Masukan Nama Kamu");
+                                document.getElementById("nama").innerText = nama;
+                            </script>
+                            
+                            <div class="login-container">
+                            <div class="login">
+                            <form action="">
+                                <label for="">Email/Username</label>
+                                <input type="email" placeholder="dewaypratiwi"><br><p></p>
+                                <label for="">Password</label>
+                                <input type="password" placeholder="Password"><br><p></p>
+                                <button class="button">Login</button>
+                                <p><a href="">Forgot Password</a></p>
+                            </form>
+                            </div>
+                            </div>
+
+                            <p><a href="" class="tbl-pink">Learn More</a></p>
+                        </div>
+                    </section>
+
+                    <!-- untuk profile -->
+                    <div id="profile">
+
+                    </div>
+                    
+                </div>
+                    <!-- untuk contact -->
+                    <div id="contact">
+                        <div class="wrapper">
+                        <div class="footer">
+                            <div class="footer-section">
+                                <h3>Dinas Pertanian Kabupaten Jeneponto</h3>
+                                <p1><center>8PHM+PHF, Balang Toa, Kec. Binamu, Kabupaten Jeneponto, Sulawesi Selatan 92315</center></p1>
+                            </div>
+
+                            <div class="footer-section">
+                                <h3>Contact</h3>
+                                <p1><center>081234567890</center></p1>
+                            </div>
+
+                            <div class="footer-section">
+                                <h3>Website Kabupaten</h3>
+                                <p1><center><a href="https://jenepontokab.go.id/">Pemerintah Kabupaten Jeneponto</a></center></p1>
+                                <p1><center><a href="http://jeneponto-pertanian.info/">Dinas Pertanian Jeneponto</a></center></p1>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+  
+                    <div id="copyright">
+                        <div class="wrapper">
+                            &copy; 2023. <b>Dewi Pratiwi Sasmito</b> All Right Reserved.
+                        </div>
+                    </div>                
+            </header>           
+        </body>
+    </html>
