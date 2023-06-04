@@ -321,7 +321,7 @@ section{
 }
 
 .login{
-    width: 400px;
+    width: 350px;
 }
 
 form {
@@ -379,7 +379,7 @@ section {
 .kolom {
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 a.tbl-pink {
@@ -596,13 +596,9 @@ h3 {
     }
 
     section img {
-        display: auto;
-        width: 50%;
+        display: block;
+        width: 0%;
         height: auto;
-    }
-
-    .wrapper {
-        width: 80%;
     }
 
     .logo {
@@ -617,15 +613,5 @@ h3 {
         display: block;
         width: 100%;
         text-align: center;
-    }
-
-    section {
-        display: block;
-    }
-
-    section img {
-        display: block;
-        width: 0%;
-        height: auto;
     }
 }
